@@ -1,0 +1,67 @@
+# AccessU - Common Accessibility Errors
+#
+
+#
+# Theme Setting
+# Doc: https://gitpitch.com/docs/settings/theme
+#
+theme : template
+
+transition : none
+
+theme            : template
+
+theme-background : [ "#FFF" ]
+theme-headline   : [ "Work Sans", "#36173A", "none" ]
+theme-byline     : [ "Work Sans", "#36173A", "none" ]
+theme-text       : [ "Roboto", "#626366", "none" ]
+theme-links      : [ "#397193", "#397193" ]
+theme-code       : [ "Source Code Pro" ]
+theme-controls   : [ "#397193" ]
+theme-margins    : [ "30px", "50px" ]
+
+#
+# Theme-Override Setting
+# Doc: https://gitpitch.com/docs/settings/custom-theme
+#
+theme-override: assets/css/PITCHME.css
+
+#
+# Logo Setting
+# https://gitpitch.com/docs/settings/logo
+
+logo : assets/img/knowbility-logo.svg
+
+logo-position : top-left
+
+
+# code highlight
+highlight: tomorrow
+#
+# Layout Setting
+# Doc: https://gitpitch.com/docs/settings/layout
+#
+layout : center
+
+## language setting
+lang : "en"
+
+#
+
+# Footnote Setting
+# Doc: https://gitpitch.com/docs/settings/footnote
+#
+footnote : "AccessU 2020 | Common Accessibility Errors"
+
+#
+# Published Setting
+# Doc: https://gitpitch.com/docs/settings/published
+#
+published : true
+
+#
+# Twitter Card Settings [Pro Only]
+# Doc: https://gitpitch.com/docs/settings/twitter-card
+#
+title : "Common Accessibility Erros"
+description : "A review of commonly seen accessibility errors and how to fix via HTML or CMS"

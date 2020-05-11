@@ -1,0 +1,95 @@
+gitpitch 
+public api:
+https://gitpitch.com/<user>/<repo name>/<optional branch>
+
+Starting:  docker run -it -v /Users/bgibson/documents/projects/git/accessu-a11y-errors:/repo -p 9000:9000 gitpitch/desktop:pro
+
+view speaker notes - add ?n=true to end of url
+https://gitpitch.com/onetapbeyond/gen_metrics?n=true
+
+Add notes via:
+Note:
+ info for note
+ 
+style helpers:  https://gitpitch.com/docs/themes/css-utility-styles/
+
+Note: headings need separate styles. 
+for example: 
+.h2-roboto {
+	font-family: "Roboto" !important;
+	color: white;
+} in pitchme.css
+and @snap[north h2-roboto]
+## heading
+@snapend
+
+Color
+### @color[orange](ACME Corp Clearance Sale) - entire line
+
+#### Dynamite Deals - @color[#DC143C](Short Fuses) Included!  - inline text color change
+
+Text box
+@box[bg-purple text-white rounded fragment](With comparable ease?)
+
+Quote
+@quote[It's what I do that defines me.](Bruce Wayne)
+
+Images must be less than 1 MB
+optimize images - tinypng.com
+![alt text](image path or url)
+
+Alt text, etc:
+
+To activate alt text on an image use the alt= property on your image markdown as follows:
+![alt=Your custom alt text](path/to/file.png)
+If the alt property is not explicitly set then the alt attribute is disabled on the corresponding image tag as follows <img src="xxx" alt />.
+
+This new property can be used in conjunction with any of the existing properties, for example:
+
+![width=400, alt=Cloud deployment architecture diagram](path/to/file.svg)
+
+
+inline videos - !!must be streamed (from a service)!! (mp4-fixed-size is a style in local pitchme.css)
+@snap[midpoint mp4-fixed-size]
+![Video described on the next slide.](https://knowbility.org/assets/blog/WCAG21-252-example.mp4)
+@snapend
+
+youtube videos - must use the embed URL
+![alt text](https://youtube.com/<embed url>
+
+Use anchor tag to embed image in link
+<a target="_blank" href="link destination">
+![alt text](img path)
+</a>
+
+color gradient vertical
+---?color=linear-gradient(90deg, white 50%, #36173A 50%)
+
+color gradient horizontal
+---?color=linear-gradient(180deg, white 50%, #36173A 50%)
+
+background image 
+---?image=assets/img/child-1864718_1920.jpg&size=cover&opacity=55 */
+
+the snap widths represent the % of the entire page 
+not just within the snapregion. Play with this example to better understand
+
+---?color=linear-gradient(180deg, white 50%, #36173A 50%)
+
+@snap[west span-40]
+Here is a bunch of text on the left hand side, aligned left
+@snapend
+
+@snap[east span-50]
+Here is text on the right hand side, aligned right
+@snapend
+
+list
+@ul[](false) -> [styles](false) - false says to display all bullets immediately.
+- list item
+- list item
+- list item
+@ulend
+list fragments - https://gitpitch.com/docs/markdown-features/list-fragments/
+list - fragment specific notes
+- list item @note[speaker note text] 

@@ -1,0 +1,84 @@
+
+.text-purple { color: #36173A !important; }
+
+.text-know-orange { color:#EC7E22 !important;}
+
+.bg-purple {
+    background: #36173A !important;
+}
+
+.white-list-text {
+	color: white !important;
+}
+
+.reveal h2 {
+    font-size: 1.25em;
+}
+
+.reveal .controls button:focus {
+	outline: solid 0.5px !important;
+}
+
+#title-footer {
+	background: rgba(0,0,0,0.1) !important;
+}
+
+.slides section div[data-video="true"] {
+    margin-top: 15%;
+ }
+
+.h2-roboto {
+	font-family: "Roboto" !important;
+	color: white;
+}
+
+.north h1 {
+	top:-3em;
+}
+.reveal a {
+	text-decoration: underline;
+	
+}
+
+.vh {
+  position: absolute !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  width: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+
+img[alt="Knowbility"] {
+    width: 500px;
+    height: auto;
+    margin: 0 0 4rem !important;
+}
+
+img[alt="W3C Member"] {
+    max-width: 300px;
+    max-height: 120px;
+    margin: 4rem 0 0 !important;
+}
+
+img[alt="water pouring into wine glass"] {
+    max-width: 60%;
+ }
+
+.mp4-fixed-size video { width: 600px !important; }
+
+.mp4-fixed-height video { height: 800px; }
+
+.img-top img { margin-top: 4rem !important; }
+
+table.custom-header th {
+  font-variant: small-caps;
+  color: black;
+}
+
+table.custom-row tr:nth-child(even) {
+  background-color: #D3C5D5;
+}
