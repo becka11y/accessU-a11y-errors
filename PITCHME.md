@@ -1,7 +1,7 @@
 ---?image=assets/img/screw-106359_1280.jpg&size=cover
 
-@snap[south-west span-80 text-bkpurple]
-# @size[0.35em](Common Accessibility Errors)
+@snap[south-west span-90 text-bkpurple]
+# @size[0.3em](Commonly Seen Accessibility Errors)
 @snapend
 
 
