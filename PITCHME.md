@@ -43,11 +43,36 @@ Note: A number-based Word. Other examples: W3, I18N, K9, Y2K
 
 ---?include=techniques/alt-text/PITCHME.md
 
+---?color=#36173A
+@snap[north span-80 text-white]
+## Questions
+@snapend
+@snap[midpoint text-50 text-know-orange font-work-sans-medium]
+?
+@snapend
+
 ---?include=techniques/headings/PITCHME.md
+
+---?color=#36173A
+@snap[north span-80 text-white]
+## Questions
+@snapend
+@snap[midpoint text-50 text-know-orange font-work-sans-medium]
+?
+@snapend
 
 ---?include=techniques/link-text/PITCHME.md
 
+---?color=#36173A
+@snap[north span-80 text-white]
+## Questions
+@snapend
+@snap[midpoint text-50 text-know-orange font-work-sans-medium]
+?
+@snapend
+
 ---?include=techniques/form-labels/PITCHME.md
+
 
 ---?color=#36173A
 @snap[north span-80 text-white]

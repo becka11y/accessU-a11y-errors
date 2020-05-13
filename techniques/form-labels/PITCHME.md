@@ -7,13 +7,10 @@
 ## VoiceOver Poor Label Example
 @snapend
 
-@snap[midpoint span-80 fragment]
-![alt=screen shot of VO panel with focus on empty field](techniques/form-labels/img/form-label-poor-VO.png)
-@snapend
 
-Note: Run the VO live example before exposing the fragment!
- https://myaccount.palmergasco.com/become-customer.php
-Form has no programmatically associated label, no programmatic indication of required, poor label text
+![Video showing poor labels in VoiceOver](https://player.vimeo.com/video/417794863)
+
+
 ---
 @snap[north span-80]
 ## Poor Label Example
